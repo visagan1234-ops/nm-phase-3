@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #333;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button.default {
+  background-color: #007bff;
+  color: white;
+}
+
+.button.outline {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.toggle.pressed {
+  background-color: #4caf50;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text-green-500 {
+  color: #4caf50;
+}
+
+.text-blue-500 {
+  color: #2196f3;
+}
+
+.text-red-600 {
+  color: #f44336;
+}
+
+.text-yellow-600 {
+  color: #ffeb3b;
+}
